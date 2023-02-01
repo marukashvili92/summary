@@ -5,7 +5,8 @@ body{
     background-color: #F2F2F2;
     display: flex;
     justify-content: center;
-    height: 100vh;
+    align-content: center;
+    height: 100%;
 }
 
 main{
@@ -14,13 +15,44 @@ main{
     background-size:contain;
     background-color: white;
     max-width: 450px;
+    padding: 48px;
     border-radius: 20px;
 }
 
 h1{ 
-    padding-top: 220px;
+    font-weight: 900;
     display: flex;
     justify-content: center;
+    color: #1F2E55;
+    padding-top: 220px;
+}
+.offer{
+    display: flex;
+    justify-content: center;
+}
+.offer-txt{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #717FA6;
+}
+
+.details{
+    width: 354px;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 48px;
+    padding-right: 48px;
+    border-radius: 40px;
+    background-color: #F7F9FF;
+}
+
+.svg-box:hover path{
+    fill: rgb(106, 0, 245);
+}
+.svg-box:hover circle{
+    fill:#b3b0d8;
 }
 
 .plan{
@@ -28,58 +60,57 @@ h1{
     padding-right: 68.81px;
 }
 
-h3{
+.anual{
+    font-weight: 900;
+    color: #1F2E55;
     width:117.19px;
 }
-main{
-    padding: 48px;
-}
-.details{
-    width: 354px;
-    height: 98px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 40px;
-    background-color:red;
-}
-
-.music-img{
-    padding-left: 24px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-
-.weight500{
+.price{
     font-weight: 500;
+    color: #717FA6;
 }
-.weight700{
-    padding-right: 24px;
+.change{
     font-weight: 700;
+    color: #382AE1;
 }
-.weight900{
+.box{
+    display: flex;
+    justify-content: center;
+    background-color: #382AE1;
+    color: #FFFFFF;
+    border-radius: 11px;
+    border-top: 32px;
+    border-bottom: 32px;
+}
+.confirm{
     font-weight: 900;
-    color:blue;
+
 }
 
+.cancelation{
+    font-weight: 900px;
+    color: #717FA6;
+}
 
+.cncl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.box:hover{
+    cursor:pointer;
+}
+.change:hover{
+    cursor:pointer;
+}
 
+.cancelation:hover{
+    cursor:pointer;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.hoverable{
-    cursor: pointer;
+.cncl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

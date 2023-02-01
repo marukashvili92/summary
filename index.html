@@ -5,6 +5,11 @@
 
         <link rel="stylesheet" href="style.css">
 
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
@@ -13,21 +18,30 @@
 
     <body>
         <main>
-            <h1 class="weight900">Order Summary</h1>
-            <h2 class="weight500">
-                You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
-            </h2>
-            <div class="details">
-
-                <img class="music-img" src="./icon-music.svg"/>
-                <div class="plan">
-                    <h3 class="weight900">Annual Plan</h3>
-                    <p class="weight500">$59.99/year</p>
-                </div>
-                <p class="weight700" class="hoverable">Change</p>
+            <h1>Order Summary</h1>
+            <div class="offer">
+                <p class="offer-txt">
+                    You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+                </p>
             </div>
-            <p class="weight900" class="hoverable">Proceed to Payment</p>
-            <p class="weight900" class="hoverable">Cancel Order</p>
+            <div class="details">
+                <div class="svg-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd">
+                            <circle cx="24" cy="24" r="24" fill="#DFE6FB"/>
+                            <path fill="#717FA6" fill-rule="nonzero" d="M32.574 15.198a.81.81 0 00-.646-.19L20.581 16.63a.81.81 0 00-.696.803V26.934a3.232 3.232 0 00-1.632-.44A3.257 3.257 0 0015 29.747 3.257 3.257 0 0018.253 33a3.257 3.257 0 003.253-3.253v-8.37l9.726-1.39v5.327a3.232 3.232 0 00-1.631-.441 3.257 3.257 0 00-3.254 3.253 3.257 3.257 0 003.254 3.253 3.257 3.257 0 003.253-3.253V15.81a.81.81 0 00-.28-.613z"/></g></svg>
+                </div>
+                <div class="plan">
+                    <p class="anual">Annual Plan</p>
+                    <p class="price">$59.99/year</p>
+                </div>
+                <p class="change">Change</p>
+            </div>
+            <div class="box">
+                <p class="confirm">Proceed to Payment</p>
+            </div>
+            <div class="cncl">
+                <p class="cancelation">Cancel Order</p>
+            </div>
         </main>
     </body>
 </html>
