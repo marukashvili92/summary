@@ -1,0 +1,85 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(./pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+main{
+    background-image: url(./illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: white;
+    max-width: 450px;
+    border-radius: 20px;
+}
+
+h1{ 
+    padding-top: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+.plan{
+    padding-left: 20px;
+    padding-right: 68.81px;
+}
+
+h3{
+    width:117.19px;
+}
+main{
+    padding: 48px;
+}
+.details{
+    width: 354px;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 40px;
+    background-color:red;
+}
+
+.music-img{
+    padding-left: 24px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.weight500{
+    font-weight: 500;
+}
+.weight700{
+    padding-right: 24px;
+    font-weight: 700;
+}
+.weight900{
+    font-weight: 900;
+    color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hoverable{
+    cursor: pointer;
+}
