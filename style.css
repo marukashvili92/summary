@@ -17,20 +17,20 @@ main{
     max-width: 450px;
     padding: 48px;
     border-radius: 20px;
+    box-shadow: 0px 0px 25px 5px rgb(83, 83, 250);
 }
 
 h1{ 
     font-weight: 900;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     color: #1F2E55;
     padding-top: 220px;
 }
 .offer{
     display: flex;
-    justify-content: center;
 }
 .offer-txt{
+    text-align: center;
     font-weight: 500;
     font-size: 1rem;
     color: #717FA6;
@@ -73,44 +73,38 @@ h1{
     font-weight: 700;
     color: #382AE1;
 }
-.box{
-    display: flex;
-    justify-content: center;
-    background-color: #382AE1;
-    color: #FFFFFF;
-    border-radius: 11px;
-    border-top: 32px;
-    border-bottom: 32px;
-}
-.confirm{
-    font-weight: 900;
-
-}
-
-.cancelation{
-    font-weight: 900px;
-    color: #717FA6;
-}
-
-.cncl{
+a{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 900;
+    background-color: #382AE1;
+    color: #FFFFFF;
+    height: 50px;
+    border-radius: 11px;
+    text-decoration: none;
+    box-shadow: 0px 40px 40px -20px #0D30BD;
+    ;
+}
+ .cncl{
+    display: flex;
+    justify-content: center;
+ }
+
+.cancelation{
+    text-align: center;
+    font-weight: 900;
+    color: #1F2E55;
 }
 
-.box:hover{
-    cursor:pointer;
+.details:hover{
+    background-color: #dee5f8;
 }
+
 .change:hover{
     cursor:pointer;
 }
 
 .cancelation:hover{
     cursor:pointer;
-}
-
-.cncl{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
